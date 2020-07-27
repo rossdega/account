@@ -2,8 +2,8 @@
 
 copyright:
 
-  years: 2018-2020
-lastupdated: "2020-02-2021"
+  years: 2018, 2020
+lastupdated: "2020-02-21"
 
 keywords: tagging, enabling others to tag, tagging permissions
 

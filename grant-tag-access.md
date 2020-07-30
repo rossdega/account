@@ -3,7 +3,7 @@
 copyright:
 
   years: 2018, 2020
-lastupdated: "2020-02-21"
+lastupdated: "2020-07-30"
 
 keywords: tagging, enabling others to tag, tagging permissions
 
@@ -32,7 +32,9 @@ Any user in an account can view tags. When a resource is tagged, all users who h
 |--------|---------------|
 | IAM-enabled | Editor or administrator on the resource |
 | Cloud Foundry | Developer on the space that the resource belongs to  |
-| Classic infrastructure| View hardware details permission or view virtual server details permission |
+| Bare metal on classic infrastructure| View hardware details plus access to a specific set of services or All Bare Metal Servers |
+| Dedicated Hosts on classic infrastructure | View virtual dedicated host details plus access to a specific set of services or All Dedicated Hosts |
+| Virtual Server on classic infrastructure | View virtual server details plus access to a specific set of services or All Virtual Servers |
 | Cloud Object Storage S3 on classic infrastructure | Storage manage permission |
 | File Storage on classic infrastructure | Storage manage permission |
 | Evault backup on classic infrastructure | Storage manage permission |

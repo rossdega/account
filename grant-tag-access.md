@@ -84,8 +84,8 @@ The taggable resources for classic infrastructure are Virtual Guest, Virtual Ded
   1. Click **Manage > Access (IAM)**, and select **Users**.
   2. Click the user's name from the table.
   3. Click **Classic infrastructure**
-  4. From the **Permissions** tab, expand the **Devices** category.
-  5. Select **View Hardware Details** and **View Virtual Server Details**. If you need to assign access to Cloud Object Storage S3, File Storage, or Evault Backup, assign the **Storage manage** permission. If you need to assign access to Content Delivery network, assign the **Manage CDN Account** permission.
+  4. Select the **Permission** tab.
+  5. To assign access to Cloud Object Storage S3, File Storage, or Evault Backup, assign the **Storage manage** permission. To assign access to Content Delivery network, assign the **Manage CDN Account** permission. To assign access to Hardware Firewall, FortiGate Security Appliance, assign the **Manage Firewall** permission. To assign access to IBM Cloud Load Balancer, assign **Manage Load Balancers** permission. To assign access to **Gateway Appliance** assign the **Manage Network Gateways** permission. To assign access to bare metal servers, assign **View Hardware Details**, then select the **Devices** tab and either grant access to a specific set of bare metal servers or select **All Bare Metal Servers**. To assign access to virtual servers, assign **View Virtual Server Details** , then select the **Devices** tab and either grant access to a specific set of virtual servers or select **All Virtual Servers**. To assign access to dedicated hosts, assign then select the **Devices** tab and either grant access to a specific set of dedicated hosts or select **View Virtual Dedicated Host Details**.  
   6. Click **Save**.
   7. Click the **Devices** tab.
   8. Select **All bare metal servers** or **All virtual servers** depending on the resource that you want the user to be able to tag.
